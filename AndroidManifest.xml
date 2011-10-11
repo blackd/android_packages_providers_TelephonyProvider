@@ -19,6 +19,7 @@
         android:sharedUserId="android.uid.phone">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.PFF_FREQUENCY" />
 
     <application android:process="com.android.phone"
                  android:allowClearUserData="false"
